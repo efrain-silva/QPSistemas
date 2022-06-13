@@ -1,0 +1,14 @@
+.footer {
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer span {
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.logo {
+  max-height: 60px;
+}

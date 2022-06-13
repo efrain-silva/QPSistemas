@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'qpsistemas';
+
+  dados($event: any) {
+    console.log($event);
+  }
 }

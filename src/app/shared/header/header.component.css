@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.header .logo {
+  max-height: 90px;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
