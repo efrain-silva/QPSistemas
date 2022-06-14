@@ -17,7 +17,7 @@
     <legend class="form"><b>Novo Aluno</b></legend>
     <div class="form-row">
       <div class="form-group col-md-6">
-        <input type="text" id="nome" class="form-control" placeholder="Nome Completo" required [(ngModel)]="nome" name="nome">
+        <input type="text" id="name" class="form-control" placeholder="Nome Completo" required [(ngModel)]="name" [ngModelOptions]="{standalone: true}">
       </div>
       <div class="form-group col-md-6">
         <input type="text" id="email" class="form-control" placeholder="Email" required [(ngModel)]="email">

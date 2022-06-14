@@ -7,8 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'qpsistemas';
+  adicionados: any;
 
-  dados($event: any) {
+
+
+  dados($event: any): void {
     console.log($event);
+    this.adicionados = $event;
   }
 }

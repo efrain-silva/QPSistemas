@@ -10,7 +10,7 @@ export class HomeComponent {
 
   @Output() aoClicar = new EventEmitter<any>();
 
-  nome!: Text;
+  name!: Text;
   email!: EmailValidator;
   telefone!: number;
   celular!: number;
@@ -19,7 +19,7 @@ export class HomeComponent {
 
   dados(){
     console.log('Solicitar dados');
-    const dadosEmitir = { nome: this.nome, email: this.email, telefone: this.telefone, celular: this.celular, cpf: this.cpf, data: this.data };
+    const dadosEmitir = { nome: this.name, email: this.email, telefone: this.telefone, celular: this.celular, cpf: this.cpf, data: this.data };
     this.aoClicar.emit(dadosEmitir);
   }
 
